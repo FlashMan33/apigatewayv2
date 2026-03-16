@@ -1,0 +1,16 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Authentication": {
+        "Bucket": "lks-dockerimage-dimas-26",
+        "Key": "flask-app.zip"
+    },
+    "Image": {
+        "Name": "508490930462.dkr.ecr.us-east-1.amazonaws.com/lks-ecr-dimas"
+    },
+    "Ports": [
+        {
+            "ContainerPort": 5000,
+            "HostPort": 5000
+        }
+    ]
+}
